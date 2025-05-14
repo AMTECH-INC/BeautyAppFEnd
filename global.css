@@ -1,0 +1,64 @@
+/* Global Reset / Normalize */
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #f9f9f9;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333;
+}
+
+/* Shared Layout Styles */
+.container {
+    max-width: 1140px;
+}
+
+/* Reusable Utility Classes */
+.text-center {
+    text-align: center;
+}
+
+.mt-5 {
+    margin-top: 3rem;
+}
+
+.mb-4 {
+    margin-bottom: 1.5rem;
+}
+
+/* Navbar Styling */
+.navbar-brand {
+    font-weight: bold;
+}
+
+.nav-link {
+    color: white !important;
+}
+
+/* Footer Styling */
+footer {
+    font-size: 0.9rem;
+    background-color: #eee;
+    color: #555;
+}
+
+/* Optional: Custom Button or Card Design */
+.btn-primary-custom {
+    background-color: #a14df0;
+    border-color: #7a2edb;
+}
+
+.card-custom {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 1rem;
+}
