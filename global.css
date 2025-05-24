@@ -62,3 +62,9 @@ footer {
     border-radius: 10px;
     padding: 1rem;
 }
+#themeCustomizer label {
+  cursor: pointer;
+}
+#themeCustomizer input[type="radio"] {
+  margin-right: 8px;
+}
